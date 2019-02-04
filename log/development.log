@@ -1,0 +1,56 @@
+Started GET "/static_pages/home" for 127.0.0.1 at 2019-02-04 15:50:55 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2754ms (Views: 1907.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2019-02-04 15:56:52 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 101.1ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2019-02-04 16:09:22 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (9.9ms)
+Completed 200 OK in 380ms (Views: 76.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2019-02-04 16:11:42 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (9.8ms)
+Completed 200 OK in 96ms (Views: 72.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2019-02-04 16:38:17 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (0.0ms)
+Completed 200 OK in 380ms (Views: 78.7ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2019-02-04 16:46:38 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 335ms (Views: 320.2ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2019-02-04 16:49:37 +0330
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 97.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-04 16:51:39 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 94.0ms)
+
+
