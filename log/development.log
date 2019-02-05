@@ -54,3 +54,136 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 114ms (Views: 94.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-02-05 09:23:37 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 390ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x41486a0>:0x4139478>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__937676592_33145008'
+Started GET "/" for 127.0.0.1 at 2019-02-05 09:28:13 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 196ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x41486a0>:0x3bedce8>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__937676592_31376004'
+Started GET "/" for 127.0.0.1 at 2019-02-05 09:28:35 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 157ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x41486a0>:0x43542f0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__937676592_35214528'
+Started GET "/" for 127.0.0.1 at 2019-02-05 09:29:19 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 400ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x41580f0>:0x4138dd0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb___206586613_33126120'
+Started GET "/" for 127.0.0.1 at 2019-02-05 09:29:50 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 410ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x417f4c8>:0x4174218>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__244170252_33263376'
+Started GET "/" for 127.0.0.1 at 2019-02-05 09:31:16 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 194ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x417f4c8>:0x3c25878>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__244170252_31499004'
+Started GET "/" for 127.0.0.1 at 2019-02-05 09:31:39 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 390ms
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x41c08b0>:0x419d768>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__14799455_33309228'
+Started GET "/" for 127.0.0.1 at 2019-02-05 09:33:18 +0330
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1086ms (Views: 857.6ms)
+
+
